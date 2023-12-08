@@ -1,9 +1,8 @@
 # Project Overview
 # Income, Budget and Expenses Tracker Application
 ## Overview
-The Budget Tracker Application is designed to help users manage their expenses against predefined budgets. This application allows users to track their spending habits and compare their expenses with set budget limits for different categories.
-
-This Budget Tracker is a Spring Boot-based RESTful API that enables users to manage and track budgets and receive warnings when approaching or exceeding budget limits.
+Introduction:
+The Income, Expense, and Budget Tracker is a robust financial management application designed to help individuals or businesses efficiently manage their finances. This tool aims to provide users with a comprehensive platform to track income sources, monitor expenses, and create budgets for better financial planning and decision-making.
 
 # Table of contents
 - Features
@@ -15,6 +14,21 @@ This Budget Tracker is a Spring Boot-based RESTful API that enables users to man
 - API Reference
 - Troubleshooting
 - Additional Notes
+
+Key Features:
+Income Tracking: Users can log various income sources such as salaries, investments, freelance work, etc., to have a clear overview of their earnings.
+
+Expense Monitoring: The application allows users to categorize and record expenses, providing insights into where and how their money is being spent. Users can categorize expenses by type, date, and amount for better analysis.
+
+Budget Management: With a budget creation feature, users can set financial goals, allocate funds to different categories, and monitor their spending against the set budgets. The system provides alerts and notifications when nearing or exceeding budget limits.
+
+Customizable Reports: Generate detailed reports and visual representations of income, expenses, and budget performance over specific periods. This feature helps in analyzing spending patterns and identifying areas for potential savings.
+
+Secure Authentication: Implement robust security measures such as user authentication, encryption of financial data, and secure login to ensure the safety of users' sensitive financial information.
+
+This Income, Expense, and Budget Tracker is a Spring Boot-based RESTful API that enables users to manage their finances. It is a comprehensive financial management application designed to help users efficiently track their income, monitor expenses, and manage budgets. This tool provides a user-friendly interface to streamline financial tracking and aid in better decision-making regarding personal or business finances.
+
+
 
 # Features
  1. Budget Management: Create, update, delete, and view budgets via RESTful endpoints.
@@ -94,14 +108,27 @@ you will need:
    - GET/users/{id}:retrieves user by id.
    - POST/users: Add a new user.
    - PUT/user/{id}: Update an existing user by ID.
-   - DELETE/users/{id}: Delete an expense by ID.
+   - DELETE/users/{id}: Delete a user by ID.
+   - GET/income: Retrieve all income.
+   - GET/income/{id}:retrieves income by id.
+   - GET/income/{date}: retrieves income by date.
+   - POST/income: Add a new income.
+   - PUT/income/{id}: Update an existing income by ID.
+   - DELETE/income/{id}: Delete an income by ID.
    - GET/budgets: Retrieve all budgets.
    - GET/budgets/{id}: Retrieves a budget by id.
    - GET/budgets/{date}: retrieves budget by date.
    - POST/budgets: Add a new budget.
    - PUT/budgets/{id}: Update an existing budget by ID.
    - DELETE/budgets/{id}: Delete a budget by ID.
-   - PUT/budget/{category}: Update an existing user bycategory.       
+   - PUT/budget/{category}: Update an existing budget by category.
+   - GET/expenses: Retrieve all expenses.
+   - GET/expenses/{id}: Retrieve an expenses by id.
+   - GET/expenses/{date}: retrieves expenses by date.
+   - POST/expenses: Add a new expenses.
+   - PUT/expenses/{id}: Update an existing expenses by ID.
+   - DELETE/expenses/{id}: Delete an expenses by ID.
+   - PUT/expenses/{category}: Update an existing expenses by category.       
 # Exceptions
   - Exceptions were customized and documented within the code in the case of an all exceptions.
   - It gives https status of HttpStatus.INTERNAL_SERVER_ERROR,HttpStatus.NOT_FOUND, and HttpStatus.BAD_REQUEST
