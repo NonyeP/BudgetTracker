@@ -1,5 +1,5 @@
 # Project Overview
-# Budget Tracker Application
+# Income, Budget and Expenses Tracker Application
 ## Overview
 The Budget Tracker Application is designed to help users manage their expenses against predefined budgets. This application allows users to track their spending habits and compare their expenses with set budget limits for different categories.
 
