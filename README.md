@@ -138,7 +138,7 @@ you will need:
 ## DOCUMENTATION REFERENCE
    - springdoc-openapi is used in this project to Automatically generate documentation.
     Check them out here:
-> https://www.swagger-ui.html
+> https://localhost:8080/swagger-ui.html
  It provides detailed information about all available endpoints, their usage, and request/response formats.
 
 ## Additional note
