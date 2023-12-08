@@ -1,7 +1,7 @@
 # Project Overview
 # Income, Budget and Expenses Tracker Application
 ## Overview
-Introduction:
+## Introduction
 The Income, Expense, and Budget Tracker is a robust financial management application designed to help individuals or businesses efficiently manage their finances. This tool aims to provide users with a comprehensive platform to track income sources, monitor expenses, and create budgets for better financial planning and decision-making.
 
 # Table of contents
@@ -49,7 +49,7 @@ This Income, Expense, and Budget Tracker is a Spring Boot-based RESTful API that
 -  Java: Core programming language used for application logic.
 -  Spring Boot: Framework used for creating the application and RESTful APIs.
 -  Maven/Gradle: Dependency management and build automation tools.
--  RESTful APIs: For handling CRUD operations on expenses and budgets.
+-  RESTful APIs: For handling CRUD operations on income, expenses and budgets.
 
 # Prerequisites
 - JDK 11 or higher installed.
@@ -58,10 +58,9 @@ This Income, Expense, and Budget Tracker is a Spring Boot-based RESTful API that
 
 
 # Installation Guide
-Before installing the currency converter ensure you have :
 - An operating system: Windows, macOS, or Linux.
 - Java runtime enviroment(JRE): Install JRE version 8 or higher.
-- Internet connection: It is required for fetching the real-time exchange rates.
+- Internet connection
 
 # Installation Steps
 ## Getting Started
@@ -100,7 +99,7 @@ you will need:
       - The application requires configuration for dependencies.
 
    - Run the application.
-   - Access the endpoints to perform CRUD operations on expenses and budgets.
+   - Access the endpoints to perform CRUD operations on income, expenses and budgets.
 
 ## Use the provided API documentation for more details on endpoints.
    # API Endpoints
@@ -139,10 +138,9 @@ you will need:
 ## DOCUMENTATION REFERENCE
    - springdoc-openapi is used in this project to Automatically generate documentation.
     Check them out here:
-> https://www.[https://springdoc.org/]
+> https://www.swagger-ui.html
  It provides detailed information about all available endpoints, their usage, and request/response formats.
 
 ## Additional note
-This project is still under production. An Expense Tracker that will track,manage and Add expenses and monitor spending against set budgets
-will be integrated to it.
+This project is still under production. 
 
