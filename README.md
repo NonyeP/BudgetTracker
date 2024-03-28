@@ -1,4 +1,5 @@
 # Project Overview
+-NOTE This project is still under development
 # Income, Budget and Expenses Tracker Application
 ## Overview
 ## Introduction
